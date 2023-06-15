@@ -1,15 +1,8 @@
-variable "networks" {
-
-  #   type = map(any
-  #     # object({
-  #     #   address_space = list(string)
-  #     #   location = string
-  #     #   name = string
-  #     # })
-  #     )
-}
+variable "networks" {}
 
 
 variable "location" {}
 
-# variable "subnets" {}
+
+variable "fwvnetid" {}
+
