@@ -5,6 +5,6 @@ locals {
   firewall_subnet_prefixes = ["10.160.1.0/24"]
   firewall_rg_name         = "${local.prefix}-firewall-resource-group"
   prefix                   = "ibo-org-${var.fwlocation}"
-#   fwlocation               = "uksouth"
+  #   fwlocation               = "uksouth"
 
 }
