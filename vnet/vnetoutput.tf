@@ -15,3 +15,10 @@ output "c-2" {
 output "c-3" {
   value = local.subnet-extract-final
 }
+
+
+output "subnetid_out" {
+  for_each = var.networks
+
+  value = azurerm_virtual_network.example[each.key].subnet.id
+}
