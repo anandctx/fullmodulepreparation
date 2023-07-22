@@ -23,3 +23,4 @@ resource "azurerm_resource_group" "fwchildpolicy" {
   location = each.value.location
 
 }
+
